@@ -4,39 +4,35 @@
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
     <style>
-      /* Global Styles */
+        /* GLOBAL STYLES */
+        a {
+          color: #f00;
+        }
 
-      a {
-        color: #c700DD; /* Light Purple */
-      }
-      html{
-        background: #ddd; /* Light Gray */
-      }
-      H2 {
-        font-size: 30px;
-      }
-      /* Bio Styles */
+        /* SOCIAL STYLES */
+        .social-link {
+          background: rgba(150, 150, 150, 0.5);
+          color: blue;
+        }
 
-      .bio-box {
-        border: 1px solid #000; /* Black */
-
-        
-        width: 50%;
-      }
-      .bio-copy a {
-        color: #070; /* Dark Green */
-        font-size: 0.5em;
-      }
-      .bio-wrapper {
-
-        /*width: 500px;*/
-      }
-      /* Social Styles */
-
-      .social-link {
-        color: #00F; /* Blue */
-      }
-
+        /* BIO STYLES */
+        .bio-wrapper {
+          font-size: 24px;
+        }
+        .bio-box {
+          border: 1px solid black;
+          font-size: 1rem;
+          width: 50%;
+        }
+        .bio-box h3 {
+          font-size: 1.5em;
+        }
+        .bio-copy {
+          font-size: 1em;
+        }
+        .bio-copy a {
+          color: green;
+        }
     </style>
     <script src="https://s3.amazonaws.com/stitch-sdks/js/library/stable/stitch.min.js"></script>
     <script>
